@@ -38,7 +38,7 @@ const ProductCard = ({ product }) => {
         {carts.find((cart) => cart.productId == product.id) ? (
           <button
             onClick={handleAdded}
-            className="border border-black px-2 py-2 text-sm bg-red-600 text-white"
+            className="text-sm border border-black px-4 py-2  bg-red-600 text-white"
           >
             Added
           </button>
